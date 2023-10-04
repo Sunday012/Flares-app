@@ -25,6 +25,9 @@ body {
 .flexStart {
   @apply flex items-center justify-start;
 }
+.flexEnd{
+  @apply flex items-end justify-end
+}
 
 .text-small {
   @apply text-sm font-medium;

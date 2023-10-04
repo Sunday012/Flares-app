@@ -24,9 +24,9 @@ const Footer = () => {
         <div className='flex flex-col gap-12 w-full'>
          <div className='flex items-start flex-col'>
           <Image 
-          src="/logo-purple.svg" 
-          width={115}
-          height={38}
+          src="/flare_logo_blue.png" 
+          width={150}
+          height={20}
           alt="Footer_logo"
           />
          </div>
