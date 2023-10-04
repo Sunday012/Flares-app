@@ -43,7 +43,7 @@ const Home = async () => {
                 className="opacity-5"
                 />
             </div>
-            <div className="flex paddings gap-8">
+            <div className="flex paddings gap-10">
              <div>
                 <Image 
                  src="/coding.png"
@@ -54,7 +54,7 @@ const Home = async () => {
                 />
              </div>
             <div className='flexCenter flex-col flex-wrap text-2xl pt-18'>
-            <Image  src={'/Flare_landing_page_logo.png'}
+            <Image  src='/Flare_landing_page_logo.png'
             width={500}
             height={400}
             alt="flare_landing_logo"
@@ -66,8 +66,8 @@ const Home = async () => {
             <div className="flex gap-10 pt-32">
             <Image 
                  src="/google (2).png"
-                 width={70}
-                 height={70}
+                 width={50}
+                 height={50}
                  alt="google-logo"
                  className="opacity-5"
                 />
