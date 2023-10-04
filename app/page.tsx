@@ -54,7 +54,7 @@ const Home = async () => {
                 />
              </div>
             <div className='flexCenter flex-col flex-wrap text-2xl pt-18'>
-            <Image  src='/Flare_landing_page_logo.png'
+            <Image  src='/flare_landing_page_logo.png'
             width={500}
             height={400}
             alt="flare_landing_logo"
