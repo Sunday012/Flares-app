@@ -85,7 +85,7 @@ const Home = async () => {
             
             </Link>
           
-            <section className="projects-grid">
+            <section className="projects-grid animate-fadeIn">
                 {projectToDisplay.map(({node} : {node: ProjectInterface}) => (
                  <ProjectCard key={node?.id}
                  id={node?.id}

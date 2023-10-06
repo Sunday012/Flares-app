@@ -27,7 +27,7 @@ const AuthProviders = () => {
   },[])
   if(providers){
     return(
-    <div>
+    <div className="hover:animate-enlarge">
       {Object.values(providers).map
       ((provider : Provider, i) => (
         <Button 

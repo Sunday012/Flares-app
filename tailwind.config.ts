@@ -5,7 +5,7 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  theme: {
+  theme:{
     extend: {
       colors: {
         'nav-border': '#EBEAEA',
@@ -29,8 +29,21 @@ module.exports = {
       },
       maxWidth: {
         '10xl': '1680px'
+      },
+      animation: {
+        'enlarge':'enlarge 0.4s ease-out forwards',
+      },
+      keyframes:{
+        'enlarge':{
+          '0%':{
+            transform: 'scale(1)',
+          },
+          '100%':{
+            transform: 'scale(1.1)',
+          }
+        }
       }
-    },
+  },
   },
   plugins: [],
 };
